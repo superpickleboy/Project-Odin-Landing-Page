@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.headersection {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 12px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.section1left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    justify-content:space-between;
+    gap: 100px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.picturemain {
+    height: 300px;
+    width: 400px;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.picture {
+    height: 150px;
+}
+.picturesubtext {
+    text-align: center;
+}
+
+.picturesubtext,
+.picture {
+    width: 150px;
+}
+
+.signupbutton {
+    width: 100px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.imagessub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
